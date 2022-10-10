@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/ScrollView">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/customerImage"
+            android:layout_width="260dp"
+            android:layout_height="260dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:src="@mipmap/defaultprofile_foreground" />
+
+        <EditText
+            android:id="@+id/registerFName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/customerImage"
+            android:layout_marginTop="50dp"
+            android:hint="First Name" />
+
+        <EditText
+            android:id="@+id/registerLName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="400dp"
+            android:hint="Last Name" />
+
+        <EditText
+            android:id="@+id/registerNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="500dp"
+            android:hint="Phone number" />
+
+        <EditText
+            android:id="@+id/registerAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="600dp"
+            android:hint="Address Line One" />
+
+        <Button
+            android:id="@+id/saveDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_bg"
+            android:layout_marginTop="700dp"
+            android:text="Save" />
+
+    </RelativeLayout>
+</ScrollView>

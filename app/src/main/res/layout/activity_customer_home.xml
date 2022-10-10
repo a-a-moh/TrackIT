@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CustomerHomeActivity"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/cBtnMap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="70dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        android:background="#0000"
+        android:contentDescription="Map activity"
+        app:srcCompat="@drawable/mapicon" />
+
+    <ImageButton
+        android:id="@+id/cBtnHistory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        android:background="#00000000"
+        android:contentDescription="Package history activity"
+        app:srcCompat="@drawable/historyicon" />
+
+    <ImageButton
+        android:id="@+id/cBtnEditDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cBtnMap"
+        android:layout_marginTop="70dp"
+        android:background="#00000000"
+        android:contentDescription="Edit details activity"
+        app:srcCompat="@drawable/list" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/box" />
+
+    <TextView
+        android:id="@+id/textViewM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="MAP"
+        android:textSize="20sp"
+        android:layout_marginStart="70dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cBtnMap" />
+
+    <TextView
+        android:id="@+id/cTVHistory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="HISTORY"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="60dp"
+        app:layout_constraintTop_toBottomOf="@+id/cBtnHistory" />
+
+    <TextView
+        android:id="@+id/cTVEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="EDIT DETAILS"
+        android:textSize="20sp"
+        android:layout_marginStart="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cBtnEditDetails" />
+
+    <TextView
+        android:id="@+id/cTVLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="60dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="LOGOUT"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cBtnLogout" />
+
+    <ImageButton
+        android:id="@+id/cBtnLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="70dp"
+        app:layout_constraintTop_toBottomOf="@+id/cBtnHistory"
+        android:background="#00000000"
+        android:contentDescription="Logout of application"
+        app:srcCompat="@drawable/logouticon" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

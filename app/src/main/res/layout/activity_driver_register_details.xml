@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/ScrollView">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="260dp"
+            android:layout_height="260dp"
+            android:id="@+id/driverimage"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:src="@mipmap/defaultprofile_foreground"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="300dp"
+            android:hint="First Name"
+            android:id="@+id/registerFName"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="400dp"
+            android:hint="Last Name"
+            android:id="@+id/registerLName"/>
+
+        <EditText
+            android:id="@+id/registerNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="500dp"
+            android:hint="Telephone number" />
+
+        <Button
+            android:id="@+id/saveDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_bg"
+            android:layout_marginTop="600dp"
+            android:text="Save" />
+
+    </RelativeLayout>
+</ScrollView>

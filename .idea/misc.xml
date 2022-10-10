@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Ali/AndroidStudioProjects/TrackIt/app/src/main/res/drawable/button_bg.xml" value="0.37" />
+        <entry key="..\:/Users/Ali/AndroidStudioProjects/TrackIt/app/src/main/res/layout/activity_customer_delivery_history.xml" value="0.22894736842105262" />
+        <entry key="..\:/Users/Ali/AndroidStudioProjects/TrackIt/app/src/main/res/layout/activity_customer_details.xml" value="0.33" />
+        <entry key="..\:/Users/Ali/AndroidStudioProjects/TrackIt/app/src/main/res/layout/activity_customer_generate_qractivity.xml" value="0.33755685510071476" />
+        <entry key="..\:/Users/Ali/AndroidStudioProjects/TrackIt/app/src/main/res/layout/activity_customer_history.xml" value="0.3417763157894737" />
+        <entry key="..\:/Users/Ali/AndroidStudioProjects/TrackIt/app/src/main/res/layout/activity_customer_home.xml" value="0.2980132450331126" />
+        <entry key="..\:/Users/Ali/AndroidStudioProjects/TrackIt/app/src/main/res/layout/activity_customer_login.xml" value="0.33" />
+        <entry key="..\:/Users/Ali/AndroidStudioProjects/TrackIt/app/src/main/res/layout/activity_customer_register_details.xml" value="0.24539473684210528" />
+        <entry key="..\:/Users/Ali/AndroidStudioProjects/TrackIt/app/src/main/res/layout/activity_customer_track.xml" value="0.25" />
+        <entry key="..\:/Users/Ali/AndroidStudioProjects/TrackIt/app/src/main/res/layout/activity_driver_home.xml" value="0.3417763157894737" />
+        <entry key="..\:/Users/Ali/AndroidStudioProjects/TrackIt/app/src/main/res/layout/activity_driver_login.xml" value="0.24539473684210528" />
+        <entry key="..\:/Users/Ali/AndroidStudioProjects/TrackIt/app/src/main/res/layout/activity_driver_map.xml" value="0.30736842105263157" />
+        <entry key="..\:/Users/Ali/AndroidStudioProjects/TrackIt/app/src/main/res/layout/activity_driver_register_details.xml" value="0.24539473684210528" />
+        <entry key="..\:/Users/Ali/AndroidStudioProjects/TrackIt/app/src/main/res/layout/activity_driver_route.xml" value="0.3417763157894737" />
+        <entry key="..\:/Users/Ali/AndroidStudioProjects/TrackIt/app/src/main/res/layout/activity_driver_scan_qractivity.xml" value="0.24513888888888888" />
+        <entry key="..\:/Users/Ali/AndroidStudioProjects/TrackIt/app/src/main/res/layout/activity_main.xml" value="0.24513888888888888" />
+        <entry key="..\:/Users/Ali/AndroidStudioProjects/TrackIt/app/src/main/res/layout/adapter_view_.xml" value="0.1" />
+        <entry key="..\:/Users/Ali/AndroidStudioProjects/TrackIt/app/src/main/res/layout/adapter_view_layout.xml" value="0.3349577647823262" />
+        <entry key="..\:/Users/Ali/AndroidStudioProjects/TrackIt/app/src/main/res/layout/route_adapter_view_layout.xml" value="0.3417763157894737" />
+        <entry key="..\:/Users/Ali/AndroidStudioProjects/TrackIt/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.3115" />
+        <entry key="..\:/Users/Ali/AndroidStudioProjects/TrackIt/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.3115" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
