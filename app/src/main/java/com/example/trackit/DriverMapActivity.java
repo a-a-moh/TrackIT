@@ -298,7 +298,7 @@ public class DriverMapActivity extends FragmentActivity implements OnMapReadyCal
                 .travelMode(AbstractRouting.TravelMode.DRIVING)
                 .withListener(this)
                 .waypoints(driv, r1)
-                .key("AIzaSyBmr6powB61QRmcHE_PWhRAKz3Vz7DN8GA")
+                .key("")
                 .build();
             routing.execute();
         }
